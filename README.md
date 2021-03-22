@@ -1,0 +1,2 @@
+# nuxt-axios
+axios
