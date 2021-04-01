@@ -1,9 +1,11 @@
 # nuxt-axios
 
-## install dependencies
+```bash
+# install dependencies
 $ yarn or yarn install
 
-## serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3000
 $ yarn dev
 
 index : http://localhost:3000
+```
