@@ -21,7 +21,9 @@ export default {
     '@/assets/styles/common.scss',
   ],
   plugins: [
+    '~/plugins/axios',
     { src: '~/plugins/commonComponents', ssr: true },
+    { src: '~/plugins/fetchOn', ssr: true },
   ],
   components: true,
   buildModules: [
@@ -31,7 +33,10 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
   ],
-  axios: {},
+  axios: {
+    timeout: 990000,
+    credentials: true,
+  },
   build: {
   },
   styleResources: {

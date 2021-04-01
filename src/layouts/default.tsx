@@ -5,9 +5,8 @@ import { VNode, CreateElement } from 'vue'
 export default class DefaultLayout extends Vue {
   render(h: CreateElement): VNode {
     return (
-      <div class="container">
+      <div class="container" id="container">
         <nuxt />
-        <portal-target name="modal"/>
       </div>
     )
   }
